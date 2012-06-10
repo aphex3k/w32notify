@@ -11,6 +11,7 @@ Synopsis
 
 Description
 ===========
+This script is targeting to provide similar functionality as inotify/dnotify to Win32 command line.
 What is considered a change is determined by the --attrib, --modify, --size, --write, --security and --dir options (see below). These options may be combined. Use --all for all options enabled. If none of them are specified, the execution fails.
 
 Options
