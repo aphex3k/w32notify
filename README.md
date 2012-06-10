@@ -38,6 +38,13 @@ This program follow the usual GNU command line syntax, with long options startin
     -h, --help
         Show this summary of options.
 
+
+Dependencies
+============
+
+    Getopt::Long;
+    Win32::ChangeNotify;
+
 Author
 ======
 
