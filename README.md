@@ -3,9 +3,18 @@ w32notify
 
 w32notify - exit when the contents of a directory change
 
-    w32notify [OPTION]... DIRECTORY...
+Synopsis
+========
 
+    w32notify [OPTION]... DIRECTORY...
+    
+
+Description
+===========
 What is considered a change is determined by the --attrib, --modify, --size, --write, --security and --dir options (see below). These options may be combined. Use --all for all options enabled. If none of them are specified, the execution fails.
+
+Options
+=======
 
 This program follow the usual GNU command line syntax, with long options starting with two dashes (--).
 
@@ -28,5 +37,8 @@ This program follow the usual GNU command line syntax, with long options startin
         Do not print warnings when the executed commands exits with a non-zero return value.
     -h, --help
         Show this summary of options.
+
+Author
+======
 
 w32notify was written by Michael Henke <w32notify@codingmerc.com>.
