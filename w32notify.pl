@@ -1,6 +1,6 @@
 #!/bin/perl
 #
-# wnotify - Execute a command when the contents of a directory change
+# w32notify - Execute a command when the contents of a directory change
 use strict;
 
 use Getopt::Long;
@@ -83,9 +83,9 @@ sub echo() {
 }
 
 sub usage() {
-	print 'wnotify - exit when the contents of a directory change
+	print 'w32notify - exit when the contents of a directory change
 
-	wnotify [OPTION]... DIRECTORY...
+	w32notify [OPTION]... DIRECTORY...
 
 What is considered a change is determined by the --attrib, --modify, --size, --write, --security and --dir options (see below). These options may be combined. Use --all for all options enabled. If none of them are specified, the execution fails.
 
@@ -110,6 +110,6 @@ This program follow the usual GNU command line syntax, with long options startin
 -h, --help
 	Show this summary of options.
 
-wnotify was written by Michael Henke <wnotify@codingmerc.com>.
+w32notify was written by Michael Henke <w32notify@codingmerc.com>.
 ' 
 }
